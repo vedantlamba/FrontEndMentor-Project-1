@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffecef;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  border-collapse: separate;
+  max-width: 40rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 30px;
+  border-collapse: separate;
+  perspective: 1px;
+}
+@media (max-width: 376px) {
+  .card {
+    width: 80%;
+  }
+}
+@media (min-width: 377px) and (max-width: 400px) {
+  .card {
+    width: 90%;
+  }
+}
+@media (min-width: 401px) and (max-width: 700px) {
+  .card {
+    width: 85%;
+  }
+}
+
+.lower-card {
+  width: 100%;
+  height: 42rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-collapse: separate;
+  perspective: 1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.lower-card .item {
+  text-align: center;
+}
+.lower-card .item1 {
+  margin-top: 5rem;
+}
+.lower-card .item1 h2 {
+  font-size: 2.3rem;
+  color: #20262e;
+}
+.lower-card .item2 {
+  margin-top: 1.5rem;
+}
+.lower-card .item2 p {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #cd5888;
+}
+.lower-card .item3 {
+  margin-top: 2rem;
+  border-radius: 10px;
+  display: flex;
+  width: 80%;
+  padding: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 223, 255);
+}
+.lower-card .item3 .left-items {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.lower-card .item3 .left-items .item3_1 {
+  margin-right: 2rem;
+}
+.lower-card .item3 .left-items .item3_1 img {
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 376px) {
+  .lower-card .item3 .left-items .item3_1 img {
+    width: 29px;
+    height: 29px;
+  }
+}
+.lower-card .item3 .left-items .item3_2 {
+  align-self: flex-start;
+  font-size: 1.2rem;
+}
+.lower-card .item3 .left-items .item3_2 h3 {
+  color: #20262e;
+}
+@media (max-width: 376px) {
+  .lower-card .item3 .left-items .item3_2 h3 {
+    font-size: 1rem;
+  }
+}
+.lower-card .item3 .left-items .item3_2 h5 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #913175;
+}
+@media (max-width: 376px) {
+  .lower-card .item3 .left-items .item3_2 h5 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 376px) {
+  .lower-card .item3 .left-items .item3_2 {
+    font-size: 0.5rem;
+    align-self: center;
+  }
+}
+.lower-card .item3 .right-items {
+  display: flex;
+}
+.lower-card .item3 .right-items a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #913175;
+  transition: color 0.2s ease-in;
+}
+.lower-card .item3 .right-items a:hover {
+  color: blue;
+}
+@media (max-width: 376px) {
+  .lower-card .item3 .right-items a {
+    font-size: 1rem;
+  }
+}
+.lower-card .item4 {
+  cursor: pointer;
+  margin-top: 2.4rem;
+  width: 80%;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background-color: #cd5888;
+}
+.lower-card .item4 a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: white;
+  box-shadow: 0px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+.lower-card .item4:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.lower-card .item5 {
+  margin-top: 3rem;
+}
+.lower-card .item5 button {
+  border: none;
+  outline: none;
+  border-width: 0;
+  background: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #20262e;
+}
+
+.head-img img {
+  width: 100%;
+  display: inline-block;
+  margin: 0%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-collapse: separate;
+  perspective: 1px;
+} /*# sourceMappingURL=style.css.map */
